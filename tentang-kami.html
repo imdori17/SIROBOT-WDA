@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang kami | SIROBOT UKM Robotika IR64 POLIJE</title>
     <link rel="stylesheet" href="css/tentang-kami.css">
+    <link rel="stylesheet" href="css/base.css">
+
 </head>
 <body>
     <!-- Navigasi -->
 <header>
         <nav class="navbar" id="navbar">
-            <a href="index.html" class="logo">SIROBOT</a>
+            <a href="index.html" class="logo" aria-label="SIROBOT - Beranda"></a>
 
             <button class="toggle" id="toggle" aria-label="Buka menu" aria-expanded="false">
                 <span></span><span></span><span></span>
@@ -24,23 +26,23 @@
                 <li><a href="berita.html">Berita</a></li>
             </ul>
 
-            <div class="actions">
-                <button class="btn btn-login">Login</button>
-                <button class="btn btn-join">Join Us <span aria-hidden="true">&rarr;</span></button>
+        <div class="actions">
+                <a href="login.html" class="btn btn-login">Login</a>
+                <a href="pendaftaran.html" class="btn btn-join">Join Us <span aria-hidden="true">&rarr;</span></a>
             </div>
         </nav>
     </header>
 
     <main>
         <!-- Profil singkat -->
-        <section>
-            <h1>Apa itu UKM Robotika IR64?</h1>
+        <section class="tentang-hero">
+            <h1>Apa itu <span class="sorot">UKM Robotika IR64?</span></h1>
             <p>Wadah inovasi mahasiswa POLIJE untuk merancang, membangun, dan mengembangkan teknologi robotika cerdas melalui kolaborasi, kreativitas, dan rekayasa teknologi.</p>
-            <img src="assets/images/maskot-bertanya.png" alt="Maskot robot SIROBOT sedang berpikir">
+            <img src="assets/images/maskot-bertanya.png" alt="">
         </section>
 
         <!-- Visi dan Misi -->
-        <section>
+          <section class="visimisi">
             <h2>Visi dan Misi</h2>
             <article>
                 <h3>Visi UKM Robotika</h3>
@@ -59,25 +61,25 @@
         </section>
 
         <!-- Sejarah Singkat -->
-        <section>
+        <section class="sejarah">
             <h2>Sejarah Singkat</h2>
             <article>
                 <h3>Latar Belakang</h3>
-                <p>[Isi sejarah singkat berdirinya UKM Robotika IR64 POLIJE: tahun berdiri, tujuan awal, dan pencapaian penting.]</p>
+                <p>Isi sejarah singkat</p>
             </article>
         </section>
 
         <!-- Divisi -->
-        <section>
+        <section class="divisi">
             <h2>Divisi UKM</h2>
             <p>Dua divisi yang menjalankan kegiatan UKM Robotika.</p>
             <article>
                 <h3>01 &ndash; Divisi Riset</h3>
-                <p>[Deskripsi Divisi Riset.]</p>
+                <p>Deskripsi Divisi Riset</p>
             </article>
             <article>
                 <h3>02 &ndash; Divisi Kelembagaan</h3>
-                <p>[Deskripsi Divisi Kelembagaan.]</p>
+                <p>Deskripsi Divisi Kelembagaan</p>
             </article>
             <p><a href="struktur.html">Lihat Struktur Organisasi</a></p>
         </section>
@@ -106,5 +108,6 @@
         </p>
         <p><small>&copy; 2026 UKM Robotika IR64 POLIJE</small></p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
